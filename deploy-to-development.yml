@@ -1,20 +1,20 @@
-name: Deploy to Production
+name: Deploy to Development
 
 on:
   pull_request:
     branches:
-      - main
+      - development
     types:
       - closed
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    environment: production
+    environment: development
     if: github.event.pull_request.merged == true
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Deploy to Production Environment
-        run: echo "Deploying to Production Environment..."
+      - name: Deploy to Development Environment
+        run: echo "Deploying to Development Environment..."
