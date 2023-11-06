@@ -3,6 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6483D5DE-6055-4FC8-9E70-D2E4736A720C}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		deploy-to-development.yml = deploy-to-development.yml
+		deploy-to-production.yml = deploy-to-production.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
