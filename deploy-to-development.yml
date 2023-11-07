@@ -1,11 +1,10 @@
-name: Deploy to Development
+name: deploy-to-development
 
 on:
-  pull_request:
+  push:
     branches:
       - development
-    types:
-      - closed
+
 
 jobs:
   deploy:
