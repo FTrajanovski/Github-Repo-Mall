@@ -16,4 +16,4 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Deploy to Development Environment
-        run: echo "Deploying to Development Environment..."
+        run: echo "Deploying to Development Environment...."
